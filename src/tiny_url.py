@@ -2,7 +2,7 @@ import requests
 	
 class TinyURL:
 	def __init__(self, api_key: str) -> None:
-		self.api = "https://tiny.cc/tiny/api/3/"
+		self.api = "https://tiny.cc/tiny/api/3"
 		self.headers = {
 			"authorization": api_key,
 			"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36"
