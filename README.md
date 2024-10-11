@@ -1,10 +1,14 @@
-# tiny_url.py
+# tiny_url.js
 Web-API for [tiny.cc](https://tiny.cc) service to shorten urls
 
 ## Example
-```python
-import tiny_url
-tiny_url = tiny_url.TinyURL(api_key="")
-account_infp = tiny_url.get_account_info()
-print(account_info)
+```JavaScript
+async function main() {
+	const { TinyUrl } = require("./tiny_url.js")
+	const tinyUrl = new TinyUrl()
+	const accountInfo = await tinyUrl.getAccountInfo()
+  console.log(accountInfo)
+}
+
+main()
 ```
