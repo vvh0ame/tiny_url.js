@@ -7,7 +7,7 @@ async function main() {
 	const { TinyUrl } = require("./tiny_url.js")
 	const tinyUrl = new TinyUrl()
 	const accountInfo = await tinyUrl.getAccountInfo()
-  console.log(accountInfo)
+  	console.log(accountInfo)
 }
 
 main()
